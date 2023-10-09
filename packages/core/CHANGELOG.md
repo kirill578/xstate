@@ -1,5 +1,20 @@
 # xstate
 
+## 5.0.0-beta.34
+
+### Patch Changes
+
+- [#4344](https://github.com/statelyai/xstate/pull/4344) [`f9b17f1e9`](https://github.com/statelyai/xstate/commit/f9b17f1e9aa7fed15749af85c27004bc6ec9a24a) Thanks [@davidkpiano](https://github.com/davidkpiano)! - Inspection events are now exported:
+
+  ```ts
+  import type {
+    InspectedActorEvent,
+    InspectedEventEvent,
+    InspectedSnapshotEvent,
+    InspectionEvent
+  } from 'xstate';
+  ```
+
 ## 5.0.0-beta.33
 
 ### Minor Changes
